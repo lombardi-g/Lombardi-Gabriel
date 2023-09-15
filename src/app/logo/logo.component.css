@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+
+.chart{
+    width: 400px;
+    height: 200px;
+    display: block;
+}
+
+.bars{
+    color: #fff;
+    background: #555;
+    display: inline-block;
+    box-shadow: 0 0 10px 0 #555;
+    border-radius: 5px;
+}
+
+.bars li{
+    display: table-cell;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.bars .bar{
+    display: block;
+    background: #17c0eb;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 10px 0 rgba(23, 192, 235, 0.5);
+}
+
+.bars .bar:hover{
+    background: #55efc4;
+    box-shadow: 0 0 10px 0 rgba(85, 239, 196, 0.5);
+    cursor: default;
+}
